@@ -1,0 +1,24 @@
+[project]
+name = "modavi"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Mischa Meier",email = "info@mischameier.ch"}
+]
+readme = "README.md"
+requires-python = "3.11"
+dependencies = [
+    "pandas (>=3.0.1,<4.0.0)",
+    "matplotlib (>=3.10.8,<4.0.0)",
+    "scipy (>=1.17.1,<2.0.0)"
+]
+
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^7.2.0"
+
