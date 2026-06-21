@@ -1,0 +1,6 @@
+streamlit
+skyfield
+plotly
+pandas
+numpy
+pillow
